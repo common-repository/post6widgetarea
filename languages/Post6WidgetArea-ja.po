@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post6WidgetArea\n"
+"POT-Creation-Date: 2013-07-04 10:36+0900\n"
+"PO-Revision-Date: 2013-07-04 10:47+0900\n"
+"Last-Translator: Yasunari Enomoto <enomoto@celtislab.net>\n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../post6text_widget.php:18
+msgid "Text"
+msgstr ""
+
+#: ../post6text_widget.php:19
+msgid "Any text and HTML with lifetime and category judgement function"
+msgstr "任意のテキストとHTML（有効期間とカテゴリ判定機能付き）"
+
+#: ../post6text_widget.php:181
+msgid "Title:"
+msgstr ""
+
+#: ../post6text_widget.php:183
+msgid "Hide"
+msgstr ""
+
+#: ../post6text_widget.php:186
+msgid "Condition setting"
+msgstr "判定条件"
+
+#: ../post6text_widget.php:189
+msgid "Lifetime"
+msgstr "有効期間"
+
+#: ../post6text_widget.php:191
+msgid " - "
+msgstr ""
+
+#: ../post6text_widget.php:196
+msgid "Condition type"
+msgstr "選択タイプ"
+
+#: ../post6text_widget.php:198
+msgid "Exclude"
+msgstr "除外する"
+
+#: ../post6text_widget.php:200
+msgid "Include"
+msgstr "含める"
+
+#: ../post6text_widget.php:202
+msgid "Category select"
+msgstr "カテゴリー選択"
+
+#: ../post6text_widget.php:210
+msgid "Post ID select"
+msgstr "Post ID 選択"
+
+#: ../post6text_widget.php:216
+msgid "Condition matches Text"
+msgstr "条件一致時のテキスト"
+
+#: ../post6text_widget.php:221
+msgid "Substitute Text"
+msgstr "条件不一致時の代替テキスト"
+
+#: ../post6text_widget.php:227
+msgid "Automatically add paragraphs"
+msgstr "自動的に段落追加する"
+
+#: ../post6widget_area.php:74
+msgid "Post 6 WidgetArea"
+msgstr "Post 6 WidgetArea 設定"
+
+#: ../post6widget_area.php:99
+msgid "Post6 wp_head widget"
+msgstr "Post6 head タグ要素内"
+
+#: ../post6widget_area.php:102
+msgid "Widget area that runs in the wp_head hook."
+msgstr "head タグ要素内のウィジェットエリアです"
+
+#: ../post6widget_area.php:109
+msgid "Post6 loop_start widget"
+msgstr "Post6 ページエリアスタート部"
+
+#: ../post6widget_area.php:112
+msgid ""
+"Widget area that runs in a loop_start hook of the home/page/single/archive "
+"page."
+msgstr ""
+"ホーム/固定/個別記事/アーカイブページエリアのループスタート部で実行するウィ"
+"ジェットエリアです"
+
+#: ../post6widget_area.php:119
+msgid "Post6 before content widget"
+msgstr "Post6 個別記事コンテンツ前"
+
+#: ../post6widget_area.php:122
+msgid ""
+"Widget area that runs in the_content hook before the content of a single "
+"post."
+msgstr "個別記事のコンテンツ前で実行するウィジェットエリアです"
+
+#: ../post6widget_area.php:129
+msgid "Post6 shortcode widget"
+msgstr "Post6 記事中ショートコード／モアタグ位置"
+
+#: ../post6widget_area.php:132
+msgid "Widget area that runs at Single Post article shortcode or more tag."
+msgstr ""
+"個別記事コンテンツのショートコード位置または、モアタグ位置で実行するウィ"
+"ジェットエリアです"
+
+#: ../post6widget_area.php:139
+msgid "Post6 after content widget"
+msgstr "Post6 個別記事コンテンツ後"
+
+#: ../post6widget_area.php:142
+msgid ""
+"Widget area that runs in the_content hook after the content of a single post."
+msgstr "個別記事のコンテンツ後で実行するウィジェットエリアです"
+
+#: ../post6widget_area.php:149
+msgid "Post6 loop_end widget"
+msgstr "Post6 ページエリアエンド部"
+
+#: ../post6widget_area.php:152
+msgid ""
+"Widget area that runs in a loop_end hook of the home/page/single/archive "
+"page."
+msgstr ""
+"ホーム/固定/投稿記事/アーカイブページエリアのループスエンド部で実行するウィ"
+"ジェットエリアです"
+
+#: ../post6widget_area.php:300
+msgid "Post 6 WidgetArea Settings"
+msgstr "Post 6 WidgetArea 設定"
+
+#: ../post6widget_area.php:301
+msgid ""
+"Post 6 WidgetArea plugin adds a widget area of 6 locations around blog "
+"posts, etc."
+msgstr ""
+"Post 6 WidgetArea プラグインは、ブログ記事前後等に６箇所のウイジェットエリア"
+"を追加します"
+
+#: ../post6widget_area.php:302
+msgid " 1.wp_head (In the HTML &lt;head&gt; element)"
+msgstr "　１．HTML　head タグ要素内"
+
+#: ../post6widget_area.php:303
+msgid " 2.Start position of the page area"
+msgstr "　２．ページのスタート部（タイトル前）"
+
+#: ../post6widget_area.php:304
+msgid " 3.Before the single post content"
+msgstr "　３．記事コンテンツ前（タイトル後）"
+
+#: ../post6widget_area.php:305
+msgid " 4.Articles in short code or more tag position"
+msgstr "　４．記事中のショートコード／モアタグ位置"
+
+#: ../post6widget_area.php:306
+msgid " 5.After the single post content"
+msgstr "　５．記事コンテンツ後"
+
+#: ../post6widget_area.php:307
+msgid " 6.End position of the page area"
+msgstr "　６．ページのエンド部"
+
+#: ../post6widget_area.php:309
+msgid ""
+"Widget area is added to the management screen Appearance → Widgets. By using "
+"the [text widget] or [Post6 text widget], you will be able to set up "
+"boilerplate and advertising, and social buttons."
+msgstr ""
+"ウイジェットエリアは、管理画面の外観→ウイジェットへ追加されているので、定型文"
+"や広告、ソーシャルボタン設置等のテキストやHTMLコードを「テキストウイジェッ"
+"ト」や「Post6 テキストウイジェット」を用いて挿入して下さい"
+
+#: ../post6widget_area.php:310
+msgid ""
+"Introduced the [PHP Code Widget] plug-in separately, in order to run the PHP "
+"code, please use the [PHP Code widget]"
+msgstr ""
+"PHPコードを実行させる場合には、別途「Executable PHP widget」プラグインを導入"
+"して、「PHP Code ウイジェット」を使用して下さい"
+
+#: ../post6widget_area.php:311
+msgid ""
+"With [Post6 wp_head widget], you can also insert information such as "
+"metadata and CSS into the head element of the HTML"
+msgstr ""
+"また、HTMLのhead要素内へのウイジェットエリアには、メタデータやCSS等のドキュメ"
+"ントについての情報を挿入することが出来ます"
+
+#: ../post6widget_area.php:319
+msgid ""
+"Type pages that enable the processing of the [Post6 loop_start widget / "
+"Post6 loop_end widget]"
+msgstr "ページエリアスタート/エンド部のウイジェット処理を有効とするページ種別"
+
+#: ../post6widget_area.php:320
+msgid "Please select the type of page you want to enable processing widget"
+msgstr "ウイジェット処理を有効にするページ種別を指定して下さい"
+
+#: ../post6widget_area.php:321
+msgid " home"
+msgstr " ホームページ"
+
+#: ../post6widget_area.php:322
+msgid " page"
+msgstr " 固定ページ"
+
+#: ../post6widget_area.php:323
+msgid " single"
+msgstr " 個別投稿ページ"
+
+#: ../post6widget_area.php:324
+msgid " archive"
+msgstr " アーカイブページ"
+
+#: ../post6widget_area.php:325
+msgid ""
+"[Post6 before content widget / Post6 shortcode widget / Post6 before content "
+"widget] is valid only on single post pages"
+msgstr ""
+"※記事コンテンツ前、ショートコード／モアタグ位置、記事コンテンツ後のウイジェッ"
+"ト処理は、個別投稿ページのみが対象です"
+
+#: ../post6widget_area.php:327
+msgid "Exclusion condition setting processing is not performed widget"
+msgstr "ウイジェット処理を行わない除外条件設定"
+
+#: ../post6widget_area.php:328
+msgid "Exclude articles specified category"
+msgstr "指定カテゴリーの投稿記事を除外"
+
+#: ../post6widget_area.php:334
+msgid ""
+"Exclusion posts post ID to the specified fixed page (Must be specified in "
+"the comma-separated values)"
+msgstr ""
+"指定 post ID の個別記事、固定ページを除外 (カンマ区切りで指定して下さい)"
+
+#: ../post6widget_area.php:337
+msgid ""
+"Please specify whether you want to exclude output destination of execution "
+"if the widgets in the sidebar"
+msgstr ""
+"実行処理の出力先がサイドバーウイジェット内なら除外するかを指定して下さい"
+
+#: ../post6widget_area.php:338
+msgid "Excluded in the sidebar widget"
+msgstr "サイドバーウイジェット内は除外する"
+
+#: ../post6widget_area.php:340
+msgid "Widget area inserted into the article in"
+msgstr "記事内に挿入するウィジェットエリア"
+
+#: ../post6widget_area.php:341
+msgid ""
+"Widget area inserted into the position of the short code string that is "
+"defined"
+msgstr ""
+"定義されているショートコード文字列の位置へウィジェットエリアを挿入します"
+
+#: ../post6widget_area.php:342
+msgid "Shortcode name "
+msgstr "ショートコード名称："
+
+#: ../post6widget_area.php:343
+msgid "If there is &lt;more&gt; tag definition, insert there the widget area"
+msgstr "モアタグが定義されていれば、そこにウィジェットエリアを挿入します"
+
+#. Description of the plugin/theme
+msgid ""
+"Add 6 widget areas before and after the post article, etc. 1.wp_head 2.Start "
+"position of the page  3.Before the single post content  4.Articles in short "
+"code or more tag position  5.After the single post content  6.End position "
+"of the page"
+msgstr ""
+"投稿記事前後等に６箇所のウイジェットエリアを追加します。１．head タグ要素内、"
+"２．ページエリアスタート部、３．個別記事コンテンツ前　４．記事中のショート"
+"コード／モアタグ位置、5．個別記事コンテンツ後、６．ページエリアエンド部"
+
+#~ msgid " 1.wp_header"
+#~ msgstr "　１．wp_header ヘッダー部"
+
+#~ msgid ""
+#~ "1.wp_header 2.Start position of the page area  3.Before the single post "
+#~ "content  4.Articles in short code or more tag position  5.After the "
+#~ "single post content  6.End position of the page area"
+#~ msgstr ""
+#~ "１．wp_header  ヘッダー、２．ページエリアスタート部、３．個別記事コンテン"
+#~ "ツ前　４．記事中のショートコード／モアタグ位置、5．個別記事コンテンツ後、"
+#~ "６．ページエリアエンド部"
+
+#~ msgid "Transfer to footer section in extracted &lt;script&gt; tag"
+#~ msgstr "&lt;script&gt; タグを抜き出してフッター部で処理するよう移動する"
+
+#~ msgid ""
+#~ "Short definition of code that enable the processing to be inserted in the "
+#~ "article widget"
+#~ msgstr "記事中に挿入するウイジェット処理を有効とするショートコードの定義"

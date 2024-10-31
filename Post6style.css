@@ -1,0 +1,69 @@
+/* 
+    Document   : Post6style
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.post6wrap h3 {
+    margin-top: 10px;
+}
+
+.post6wgoption {
+    margin-left: 8px;
+    margin-bottom: 1em;
+}
+
+/* wp_category_checklist() */
+.post6categorydiv {
+    border-color:#CEE1EF;
+    border-style:solid;
+    border-width:1px;
+    height:10em;
+    margin:5px 50px 5px 20px;
+    overflow:auto;
+    padding:0.5em 0.5em;  
+}
+
+
+ul.categorychecklist ul {
+    margin-left: 18px;
+}
+
+
+/* =Clearfix
+-------------------------------------------------------------- */
+.post6widget-area:after,
+.post6widget-area:before {
+	content: ' ';
+	display: table;
+}
+
+.post6widget-area:after,
+.post6widget-area:after { 
+	clear: both;
+}
+
+/* ウィジェットエリアごとに float で並びを指定 */ 
+.post6widget-area {
+    float: none;
+}
+
+#post6widget-loop_start  {
+    float: none;
+}
+
+#post6widget-before_content  {
+    float: none;
+}
+
+#post6widget-shortcode  {
+    float: none;
+}
+
+#post6widget-after_content  {
+    float: none;
+}
+
+#post6widget-loop_end  {
+    float: none;
+}
